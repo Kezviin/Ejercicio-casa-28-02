@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_seis {
@@ -11,8 +12,9 @@ public class ejercicioParcial_seis {
         if (numUno<0) {
             System.out.println("el número es negativo");
         }
-        if (numUno=0) {
+        if (numUno==0) {
             System.out.println("el número es nulo");
         }
+        scanner.close();
     }
 }

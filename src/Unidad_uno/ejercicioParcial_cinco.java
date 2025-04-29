@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioParcial_cinco {
@@ -12,6 +14,6 @@ public class ejercicioParcial_cinco {
         } else {
             System.out.println("el numero mayor es:" + numDos);
         }
-
+        scanner.close();
     }
 }

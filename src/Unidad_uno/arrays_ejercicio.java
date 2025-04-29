@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class arrays_ejercicio {

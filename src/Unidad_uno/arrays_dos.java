@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 public class arrays_dos {
     public static void main(String[] args) {
         int[][] matriz = {

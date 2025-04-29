@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 public class ejercicioClase2 {
     public static void main(String[] args) {
         int contador = 0;

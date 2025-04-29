@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioClase4 {
@@ -13,5 +15,6 @@ public class ejercicioClase4 {
             
         }
         System.out.println("El factorial de: " + numUno + " Es : " + factorial);
+        scanner.close();
     }
 }

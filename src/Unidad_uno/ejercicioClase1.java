@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioClase1 {
@@ -16,6 +18,7 @@ public class ejercicioClase1 {
         } else {
             System.out.println("El número mayor es: " + numTres) ;
         }
+        scanner.close();
     }
      
                 

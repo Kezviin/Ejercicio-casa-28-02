@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_dieciseis {
@@ -8,6 +9,6 @@ public class ejercicioParcial_dieciseis {
         System.out.println("ingrese el segundo nombre");
         String nombreDos = scanner.nextLine();
         System.out.println(nombreUno.compareToIgnoreCase(nombreDos));
-        
+        scanner.close();
     }
 }

@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioParcial_cuatro {
@@ -10,5 +12,6 @@ public class ejercicioParcial_cuatro {
         } else {
             System.out.println("no debe abonar impuestos");
         }
+        scanner.close();
     }
 }

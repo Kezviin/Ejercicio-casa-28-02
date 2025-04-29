@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_doce {
@@ -8,7 +9,7 @@ public class ejercicioParcial_doce {
         for (int i = 0; i<=10; i++) {
             System.out.println("ingrese la nota del alumno" + i);
             int nota = scanner.nextInt();
-            if (notas>=7) {
+            if (nota>=7) {
                 notasMayores++;
             } else {
                 notasMenores++;
@@ -16,5 +17,6 @@ public class ejercicioParcial_doce {
         }
         System.out.println("La cantidad de estudiantes con mayor a 7 son :" + notasMayores);
         System.out.println("la cantidad de estudiantes con menores a 7 son :" + notasMenores);
+        scanner.close();
     }
 }

@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_quince {
@@ -8,5 +9,6 @@ public class ejercicioParcial_quince {
             int multiplicación = (5*i);
             System.out.println("5 * " + i + " = " + multiplicación);
         }
+        scanner.close();
     }
 }

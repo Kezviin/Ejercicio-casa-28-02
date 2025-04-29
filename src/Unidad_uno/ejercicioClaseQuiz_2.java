@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioClaseQuiz_2 {
@@ -6,7 +8,6 @@ public class ejercicioClaseQuiz_2 {
         Scanner scanner = new Scanner(System.in);
         System.out.println("ingrese un numero para saber si es un numero perfecto");
         int num = scanner.nextInt();
-        int LIMITE = 0;
         int LIMITE_TOTAL= 0;
         int CONTAR_NUMEROS = 0;
         while (LIMITE_TOTAL < num) {

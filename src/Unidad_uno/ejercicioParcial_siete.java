@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_siete {
@@ -17,5 +18,6 @@ public class ejercicioParcial_siete {
         if (numUno>1000) {
             System.out.println("ERROR EL NUMERO DE CIFRAS ES MAYOR");
         }
+        scanner.close();
     }
 }

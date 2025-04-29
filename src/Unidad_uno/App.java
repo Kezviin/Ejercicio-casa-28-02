@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class App {
@@ -13,7 +15,7 @@ public class App {
         System.out.println("El numero " + numerouno + " Es mayor que el numero: " + numerodos + " Y menor que el numero " + numerotres + " ?");
         boolean condicion = (numerouno>numerodos) && (numerouno<numerotres);
         System.out.println(condicion);
-
+        scanner.close();
        
         
     }

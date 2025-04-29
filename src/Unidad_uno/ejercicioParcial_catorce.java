@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioParcial_catorce {
@@ -6,5 +8,6 @@ public class ejercicioParcial_catorce {
         for (int i = 1; i <=100; i++) {
             System.out.println(i);
         }
+        scanner.close();
     }
 }

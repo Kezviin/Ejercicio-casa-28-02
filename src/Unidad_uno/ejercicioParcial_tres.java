@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_tres {
@@ -10,5 +11,6 @@ public class ejercicioParcial_tres {
         } else {
             System.out.println("El número tiene 2 digitos");
         }
+        scanner.close();
     }
 }

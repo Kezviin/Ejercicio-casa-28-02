@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioClase5 {
@@ -11,5 +13,6 @@ public class ejercicioClase5 {
             
             System.out.println(numero + " x " + i + " = " + (numero * i));
         }
+        scanner.close();
     }
 }

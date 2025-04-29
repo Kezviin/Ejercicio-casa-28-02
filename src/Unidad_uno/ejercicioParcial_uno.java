@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_uno {
@@ -23,6 +24,7 @@ public class ejercicioParcial_uno {
             double divNum = (numUno/numDos);
             System.out.println(divNum);
         }
+        scanner.close();
     }
 
 }

@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioClase3 {
@@ -33,6 +35,7 @@ public class ejercicioClase3 {
                 System.out.println(divicion);
                 break;
         }
+        scanner.close();
     }
     
 }

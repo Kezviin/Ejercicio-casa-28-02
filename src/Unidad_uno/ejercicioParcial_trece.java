@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class ejercicioParcial_trece {
@@ -24,5 +25,6 @@ public class ejercicioParcial_trece {
         System.out.println("la cantidad de empleados que cobran 100 son: " + sueldo100);
         System.out.println("la cantidad de empleados que cobran 300 son: " + sueldo300);
         System.out.println("la cantidad de empleados que cobran mas de 300 son: " + sueldo500);
+        scanner.close();
     }
 }

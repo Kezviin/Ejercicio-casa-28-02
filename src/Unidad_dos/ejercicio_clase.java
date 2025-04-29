@@ -1,19 +1,21 @@
 package Unidad_dos;
 
-import java.util.Scanner;
-
 public class ejercicio_clase {
     public static void main(String[] args) {
+        int contador=0;
+        int[] num = new int[3];
         Scanner scanner = new Scanner(System.in);
-        int contNum = 0;
-        int[] numeros = new int[3];
-        for (int i = 0; i < numeros.length; i++) {
-            contNum++;
-            System.out.println("Ingrese el numero N°" + contNum);
-            numeros[i] = scanner.nextInt();
-            
+        for (int i = 0; i < args.length; i++) {
+            contador++;
+            System.out.println("Ingresa el numero N°" + contador);
+            num[i] = scanner.nextInt;
         }
         
-        System.out.println("El numero 1 es : " +  numeros[0] );
+        int mayor = encontrarMayor(num[0], num[1],num[2]);
+        System.out.println("El número mayor es: " + mayor);
+    }
+
+    public static int encontrarMayor(int a, int b, int c) {
+        return Math.max(a, Math.max(b, c));
     }
 }

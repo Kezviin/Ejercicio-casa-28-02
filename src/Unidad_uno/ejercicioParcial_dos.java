@@ -1,3 +1,5 @@
+package Unidad_uno;
+
 import java.util.Scanner;
 
 public class ejercicioParcial_dos {
@@ -15,6 +17,6 @@ public class ejercicioParcial_dos {
         } else {
             System.out.println("No alcanzó el promedio");
         }
+        scanner.close();
     }
 }
-1

@@ -1,3 +1,4 @@
+package Unidad_uno;
 import java.util.Scanner;
 
 public class Quiz2 {
@@ -26,6 +27,6 @@ public class Quiz2 {
             System.out.println(esPerfecto);
             
         }
-        
+        scanner.close();
     }
 }
