@@ -25,7 +25,6 @@ public class ejercicio_3_arrays {
             
         }
         System.out.println("El promedio de las notas es: " + promedio);
-        
         //me falta en esta parte como comparar todos los valores a la vez y decir cual es el mayor y cual es el menor
         scanner.close();
     }
